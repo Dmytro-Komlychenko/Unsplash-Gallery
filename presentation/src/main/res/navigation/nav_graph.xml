@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/imageListFragment"
-        android:name="com.example.presentation.screens.imagelist.ImageListFragment"
+        android:name="com.example.presentation.screens.imagelist.PostListFragment"
         android:label="fragment_image_list"
-        tools:layout="@layout/fragment_image_list" />
+        tools:layout="@layout/fragment_image_list" >
+        <action
+            android:id="@+id/action_imageListFragment_to_imageFragment"
+            app:destination="@id/imageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.presentation.screens.image.ImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_image" />
 </navigation>

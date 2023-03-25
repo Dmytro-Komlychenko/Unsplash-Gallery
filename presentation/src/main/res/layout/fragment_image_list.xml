@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.presentation.screens.imagelist.ImageListFragment">
+    tools:context="com.example.presentation.screens.imagelist.PostListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutManager="LinearLayoutManager"
+        app:layoutManager="GridLayoutManager"
         tools:listitem="@layout/image_list_item" />
 
 </FrameLayout>
