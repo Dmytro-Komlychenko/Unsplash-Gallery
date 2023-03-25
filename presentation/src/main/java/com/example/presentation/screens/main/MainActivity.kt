@@ -1,7 +1,8 @@
-package com.example.unsplash_gallery
+package com.example.presentation.screens.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.unsplash_gallery.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
